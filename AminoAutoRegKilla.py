@@ -40,7 +40,7 @@ def save_account(email: str, password: str):
 def auto_register(password: str, count: int):
     for i in range(count):
         try:
-            client = samino.Client()
+            client = samino.Client() # for generating new device_id
             email = sec_mail.generate_email()
             nickname = get_last_name()
             client.register(
