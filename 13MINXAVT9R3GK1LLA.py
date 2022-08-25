@@ -8,8 +8,8 @@ from webbrowser import open_new_tab
 from colored import fore, style, attr
 attr(0)
 print(f"""{fore.RED + style.BOLD}
-Script by deluvsushi
-Github : https://github.com/deluvsushi""")
+Script by zeviel
+Github : https://github.com/zeviel""")
 print(figlet_format("13MINXAVT9R3GK1LLA", font="standard", width=60))
 sec_mail = secmail.SecMail()
 
